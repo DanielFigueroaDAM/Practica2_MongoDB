@@ -1,23 +1,25 @@
 package org.example.model;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Arrays;
 
 @Document(collation = "pais")
 public class Pais {
+    @Id
     private String nome;
     private String organizacion;
     private String [] partidos;
-    private Presidente presidente;
+    private String id_presidente;
 
     public Pais() { }
 
-    public Pais(String nome, String organizacion, String[] partidos, Presidente presidente) {
+    public Pais(String nome, String organizacion, String[] partidos, String id_presidente) {
         this.nome = nome;
         this.organizacion = organizacion;
         this.partidos = partidos;
-        this.presidente = presidente;
+        this.id_presidente = id_presidente;
     }
 
     public String getNome() {
@@ -44,12 +46,12 @@ public class Pais {
         this.partidos = partidos;
     }
 
-    public Presidente getPresidente() {
-        return presidente;
+    public String getId_presidente() {
+        return id_presidente;
     }
 
-    public void setPresidente(Presidente presidente) {
-        this.presidente = presidente;
+    public void setId_presidente(String id_presidente) {
+        this.id_presidente = id_presidente;
     }
 
     @Override
@@ -58,7 +60,7 @@ public class Pais {
                 "nome='" + nome + '\'' +
                 ", organizacion='" + organizacion + '\'' +
                 ", partidos=" + Arrays.toString(partidos) +
-                ", presidente=" + presidente +
+                ", presidente=" + id_presidente +
                 '}';
     }
 }

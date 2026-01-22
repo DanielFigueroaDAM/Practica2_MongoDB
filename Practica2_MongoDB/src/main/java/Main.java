@@ -13,7 +13,7 @@ public class Main {
     }
     @PostConstruct
     public void exameSolucion() {
-        secuencia.exameSolucion();
+        secuencia.practica2();
         System.exit(200);
     }
     public static void main(String[] args) {

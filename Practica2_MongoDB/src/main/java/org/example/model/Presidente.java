@@ -1,6 +1,14 @@
 package org.example.model;
 
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "presidente")
 public class Presidente {
+
+    @Id
+    private String id;
     private String nome;
     private Integer idade;
     private String partido;
