@@ -46,6 +46,14 @@ public class Presidente {
         this.partido = partido;
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
     @Override
     public String toString() {
         return "Presidente{" +

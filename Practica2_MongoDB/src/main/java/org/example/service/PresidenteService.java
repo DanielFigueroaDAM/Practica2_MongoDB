@@ -24,8 +24,8 @@ public class PresidenteService {
         return presidenteRepository.findAll();
     }
 
-    public void insertarPresidente(Presidente presidente){
-        presidenteRepository.save(presidente);
+    public Presidente insertarPresidente(Presidente presidente){
+        return presidenteRepository.save(presidente);
     }
 
     public void eliminarPresidentes(){

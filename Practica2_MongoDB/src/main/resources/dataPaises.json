@@ -1,0 +1,51 @@
+[
+  {
+    "nome": "España",
+    "organizacion": "Unión Europea",
+    "partidos": ["PSOE", "PP", "Vox", "Sumar"],
+    "id_presidente": "1"
+  },
+  {
+    "nome": "Francia",
+    "organizacion": "Unión Europea",
+    "partidos": ["Renaissance", "Les Républicains", "Rassemblement National"],
+    "id_presidente": "2"
+  },
+  {
+    "nome": "Alemania",
+    "organizacion": "Unión Europea",
+    "partidos": ["SPD", "CDU/CSU", "Los Verdes", "FDP"],
+    "id_presidente": "3"
+  },
+  {
+    "nome": "Italia",
+    "organizacion": "Unión Europea",
+    "partidos": ["Fratelli d'Italia", "Lega", "Forza Italia", "M5S"],
+    "id_presidente": "4"
+  },
+  {
+    "nome": "Portugal",
+    "organizacion": "Unión Europea",
+    "partidos": ["PSD", "PS", "Chega", "IL"],
+    "id_presidente": "5"
+  },
+  {
+    "nome": "Grecia",
+    "organizacion": "Unión Europea",
+    "partidos": ["Nueva Democracia", "SYRIZA", "PASOK", "KKE"],
+    "id_presidente": "6"
+  },
+  {
+    "nome": "Bélgica",
+    "organizacion": "Unión Europea",
+    "partidos": ["Open VLD", "MR", "PS", "N-VA"],
+    "id_presidente": "7"
+  },
+  {
+    "nome": "Países Bajos",
+    "organizacion": "Unión Europea",
+    "partidos": ["VVD", "D66", "CDA", "PVV"],
+    "id_presidente": "8"
+  }
+]
+

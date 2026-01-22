@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "nome": "Pedro Sánchez",
+    "idade": 52,
+    "partido": "PSOE"
+  },
+  {
+    "id": "2",
+    "nome": "Emmanuel Macron",
+    "idade": 46,
+    "partido": "Renaissance"
+  },
+  {
+    "id": "3",
+    "nome": "Olaf Scholz",
+    "idade": 65,
+    "partido": "SPD"
+  },
+  {
+    "id": "4",
+    "nome": "Giorgia Meloni",
+    "idade": 47,
+    "partido": "Fratelli d'Italia"
+  },
+  {
+    "id": "5",
+    "nome": "Luís Montenegro",
+    "idade": 51,
+    "partido": "PSD"
+  },
+  {
+    "id": "6",
+    "nome": "Kyriakos Mitsotakis",
+    "idade": 56,
+    "partido": "Nueva Democracia"
+  },
+  {
+    "id": "7",
+    "nome": "Alexander De Croo",
+    "idade": 48,
+    "partido": "Open VLD"
+  },
+  {
+    "id": "8",
+    "nome": "Mark Rutte",
+    "idade": 57,
+    "partido": "VVD"
+  }
+]
+

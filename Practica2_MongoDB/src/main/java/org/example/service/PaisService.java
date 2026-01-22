@@ -14,10 +14,10 @@ import java.util.List;
 @Service
 public class PaisService {
 
-    @Autowired
+
     private final PaisRepository paisRepository;
 
-    @Autowired
+
     private final PresidenteRepository presidenteRepository;
 
 
@@ -64,7 +64,7 @@ public class PaisService {
     }
 
     // Inserir datos importados dun arquivo JSON
-    public void insertarPaises(String arquivoJsonPaises, String arquivoJsonPresidentes) {
+    public void insertarPaisesyPresidente(String arquivoJsonPaises, String arquivoJsonPresidentes) {
         UtilJson utilJson = new UtilJson();
         try {
             utilJson.readJsonFile(arquivoJsonPaises, Pais.class).forEach(this::insertarPais);
