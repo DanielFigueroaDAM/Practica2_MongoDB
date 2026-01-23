@@ -46,7 +46,7 @@ public class Secuencia {
         paisService.modificarPais(paises.get(1));
 
         System.out.println("----- Después de las modificaciones -----");
-        presidentes = presidenteService.listarPresidentes();
+        List<Presidente> presidentes2 = presidenteService.listarPresidentes();
         paises = paisService.leerPaises();
         presidentes.forEach(System.out::println);
         paises.forEach(System.out::println);

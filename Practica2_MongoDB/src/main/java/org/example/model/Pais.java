@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Arrays;
 
-@Document(collation = "pais")
+@Document(collection = "pais")
 public class Pais {
     @Id
     private String nome;
